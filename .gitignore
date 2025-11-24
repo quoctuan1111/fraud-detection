@@ -1,0 +1,13 @@
+﻿# Ignore dataset directory
+/data/
+# Ignore common data file types
+*.csv
+*.parquet
+*.feather
+# Ignore model artifacts and outputs
+/models/
+# Jupyter checkpoints
+.ipynb_checkpoints/
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
