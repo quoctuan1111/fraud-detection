@@ -1,13 +1,21 @@
-﻿# Ignore dataset directory
-/data/
-# Ignore common data file types
-*.csv
-*.parquet
-*.feather
-# Ignore model artifacts and outputs
-/models/
-# Jupyter checkpoints
-.ipynb_checkpoints/
-# Python cache and bytecode
+﻿# Ignore data folder
+data/
+
+# Python cache
 __pycache__/
-*.py[cod]
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
+*.pkl
+*.joblib
+models/
+
+# VS Code settings
+.vscode/
